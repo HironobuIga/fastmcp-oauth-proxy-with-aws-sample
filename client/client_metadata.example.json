@@ -1,0 +1,9 @@
+{
+  "client_id": "https://example.com/client_metadata.example.json",
+  "client_name": "FastMCP Cognito CIMD Sample Client",
+  "redirect_uris": ["http://localhost:*/callback"],
+  "token_endpoint_auth_method": "none",
+  "grant_types": ["authorization_code", "refresh_token"],
+  "response_types": ["code"],
+  "scope": "openid email profile"
+}
